@@ -1,0 +1,29 @@
+.acerca {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  .image {
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .textContainer {
+    flex: 2;
+    max-width: 600px;
+  }
+  
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  

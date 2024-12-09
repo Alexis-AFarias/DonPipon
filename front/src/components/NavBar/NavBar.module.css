@@ -1,0 +1,32 @@
+.navbarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(100, 201, 100);
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    gap: 75px;
+    font-weight: bold;
+    a{
+        text-decoration: none;
+        color: darkgreen;
+    }
+}
+
+.avatar{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 150px;
+}

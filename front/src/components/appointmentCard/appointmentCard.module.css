@@ -1,0 +1,44 @@
+.cardContainer{
+    background-color: darkgreen;
+    color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: 23px;
+    align-items: center;
+}
+
+.cardContainer > span {
+    flex: 1;
+    min-width: 0; 
+    width: 100%;
+    overflow: auto;
+  }
+.active{
+    color: green;
+    cursor: pointer;
+}
+
+.cancelled{
+    color: red;
+}
+
+.active:hover {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.active,
+.cancelled {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  background-color: #f0f0f0; 
+  transition: background-color 0.3s, color 0.3s;
+}
